@@ -3,8 +3,8 @@ import re
 import requests
 import redis
 
-class Proxy(scrapy.Spider):
-    name = "proxy"
+class Myproxy(scrapy.Spider):
+    name = "myproxy"
     start_urls = ['http://icanhazip.com/',]
 
     def parse(self, response):
