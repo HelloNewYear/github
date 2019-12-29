@@ -1,10 +1,9 @@
 import scrapy
 import re
 import requests
-import redis
 
-class Myproxy(scrapy.Spider):
-    name = "myproxy"
+class Proxy(scrapy.Spider):
+    name = "proxy"
     start_urls = ['http://icanhazip.com/',]
 
     def parse(self, response):
