@@ -8,5 +8,5 @@ class Proxy(scrapy.Spider):
 
     def parse(self, response):
         yield {
-          'IP': response.text,
+            'IP': response.text,
         }
