@@ -1,5 +1,6 @@
 ### Downloading and processing files and images
 #### https://doc.scrapy.org/en/latest/topics/media-pipeline.html
+#### https://support.scrapinghub.com/support/solutions/articles/22000200389-images-storage-addon
 ---
 
 `meitulu.py`
