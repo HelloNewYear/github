@@ -10,7 +10,7 @@ class Xiameijiang(scrapy.Spider):
         pg = response.css('div.cm .t').extract()
         
         xurls = []
-        for i in range(5):
+        for i in range(15):
             pm = int(re.search(r'\d+', pg[i]).group())
             for j in range(pm):
                 xurls.append(us[i][:-6] + str(j) + '.html')
