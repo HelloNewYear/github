@@ -1,7 +1,7 @@
 import scrapy
 
 class Proxy(scrapy.Spider):
-    name = "proxy"
+    name = "ip"
     start_urls = ['http://icanhazip.com/',]
 
     def parse(self, response):
