@@ -1,6 +1,4 @@
 import scrapy
-import re
-import requests
 
 class Proxy(scrapy.Spider):
     name = "proxy"
